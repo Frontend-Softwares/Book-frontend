@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# Book
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The book is a blog website in this user can create it's blog in kind of a book and can share it's thoughts and knowledge to the world throw this app.
 
-## Available Scripts
+## Technologies are used
 
-In the project directory, you can run:
+This application created by using latest advance technologies and libraries <br> are given below----
 
-### `npm start`
+| Tech & Library | Description |
+| ------ | ------ |
+| React | javascript frontend library |
+| Node Js | javascript runtime for backend
+ |
+| Express | a node js library for backend |
+| MongoDb | database |
+| Tailwind | a css library for designing |
+| React Redux Toolkit | a javascript library to manage application states |
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Description
 
-### `npm test`
+This is a web application for creating and reading blogs in a better manner.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### `Design`
 
-### `npm run build`
+1. ## Guest Page
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p align="center">
+<img src="./public/preview/guest.png" alt="Guest Screen" height="350">
+</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. ## Signup 
 
-### `npm run eject`
+<p align="center">
+<img src="./public/preview/signup.png" alt="Signup Screen" height="350">
+</p>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+*Registration process will be done by using otp verification.*
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. ## Otp
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<p align="center">
+<img src="./public/preview/otp.png" alt="Otp Screen" height="350">
+</p>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+4. ## Login
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<p align="center">
+<img src="./public/preview/login.png" alt="Login Screen" height="350">
+</p>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+5. ## Reset Password
 
-### Code Splitting
+<p align="center">
+<img src="./public/preview/reset.png" alt="Reset Password Screen" height="350">
+</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+6. ## New Key
 
-### Analyzing the Bundle Size
+<p align="center">
+<img src="./public/preview/new_key.png" alt="New Key Screen" height="350">
+</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+7. ## Home
 
-### Making a Progressive Web App
+<p align="center">
+<img src="./public/preview/home.png" alt="Home Screen" height="350">
+</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
