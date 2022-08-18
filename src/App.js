@@ -4,6 +4,10 @@ import { ToastContainer } from "react-toastify";
 import Topbaar from "./components/Topbaar";
 import Entrance from "./pages/guest/Entrance/Entrance";
 import Module from "./contexts/modules";
+import NewKey from "./pages/guest/NewKey";
+import ResetPassword from "./pages/guest/ResetPassword";
+import Terms from "./pages/guest/Softwares/Terms";
+import Conditions from "./pages/guest/Softwares/Conditions";
 function App() {
   return (
     <div className="App">
@@ -26,6 +30,10 @@ function App() {
           <Routes>
             <Route path="/" exact element={<GetKey />} />
             <Route path="/entrance" exact element={<Entrance />} />
+            <Route path="/new_key" exact element={<NewKey />} />
+            <Route path="/reset_password" exact element={<ResetPassword />} />
+            <Route path="/terms" exact element={<Terms />} />
+            <Route path="/conditions" exact element={<Conditions />} />
           </Routes>
         </Router>
       </Module>

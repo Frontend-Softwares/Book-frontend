@@ -15,7 +15,7 @@ function Signup() {
           <Field placeholder={"Password Again"}/>
           <div className='flex items-center space-x-2'>
             <input className='w-8 h-8 xs:w-4 xs:h-4' type="checkbox" id='tNc' />
-            <p className='text-center' id='checkboxText'>Accept <Link className='underline font-extrabold' to={"/"}>terms</Link> and <Link className='underline font-extrabold' to={"/"}>conditions</Link></p>
+            <p className='text-center' id='checkboxText'>Accept <Link className='underline font-extrabold' to={"/terms"}>terms</Link> and <Link className='underline font-extrabold' to={"/conditions"}>conditions</Link></p>
           </div>
           <Next onClick={()=>{toast.error("hello")}}/>
         </div>
