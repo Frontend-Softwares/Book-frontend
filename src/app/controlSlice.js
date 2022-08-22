@@ -2,7 +2,7 @@ import { createSlice } from '@reduxjs/toolkit'
 
 const initialState = {
   appState : {
-    isAuth : false,
+    isAuth : true,
     entrancePath : "",
   }
 }

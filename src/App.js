@@ -8,6 +8,7 @@ import NewKey from "./pages/guest/NewKey";
 import ResetPassword from "./pages/guest/ResetPassword";
 import Terms from "./pages/guest/Softwares/Terms";
 import Conditions from "./pages/guest/Softwares/Conditions";
+import Home from "./pages/protected/Home";
 function App() {
   return (
     <div className="App">
@@ -34,6 +35,7 @@ function App() {
             <Route path="/reset_password" exact element={<ResetPassword />} />
             <Route path="/terms" exact element={<Terms />} />
             <Route path="/conditions" exact element={<Conditions />} />
+            <Route path="/dashboard" exact element={<Home />} />
           </Routes>
         </Router>
       </Module>
