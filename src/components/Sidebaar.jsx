@@ -9,15 +9,15 @@ function Sidebaar() {
 
     function closeSideBaar(){
         if(sidebaar.current){
-            sidebaar.current.style.left = "-105px";
-            smBaar.current.style.left = "0px";
+            sidebaar.current.style.transform = "translateX(" + (-110) + "px)";
+            smBaar.current.style.transform = "translateX(" + (0) + "px)";
         }
     };
 
     function openSideBaar(){
         if(sidebaar.current){
-            sidebaar.current.style.left = "0px";
-            smBaar.current.style.left = "-105px";
+            sidebaar.current.style.transform = "translateX(" + (0) + "px)";
+            smBaar.current.style.transform = "translateX(" + (-110) + "px)";
         }
     };
 
@@ -50,7 +50,7 @@ function Sidebaar() {
         </div>   
     </div>
 
-    <div ref={smBaar} className="hidden absolute h-[85vh] duration-700 left-[-105px] xs:flex flex-col items-center justify-center">
+    <div ref={smBaar} className="hidden translate-x-[-110px] absolute h-[85vh] duration-700 xs:flex flex-col items-center justify-center">
         <div className="w-14 h-max bg-white flex flex-col items-center justify-evenly rounded-tr-md rounded-br-md z-50">
             <Tooltip hint={"open"}>
                 <AiFillCaretRight onClick={openSideBaar} color="black" size={30} className="cursor-pointer"/>
