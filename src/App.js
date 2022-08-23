@@ -8,7 +8,7 @@ import NewKey from "./pages/guest/NewKey";
 import ResetPassword from "./pages/guest/ResetPassword";
 import Terms from "./pages/guest/Softwares/Terms";
 import Conditions from "./pages/guest/Softwares/Conditions";
-import Home from "./pages/protected/Home";
+import Home from "./pages/protected/Home/Home";
 function App() {
   return (
     <div className="App">

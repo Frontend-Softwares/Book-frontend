@@ -1,10 +1,10 @@
 import styles from "./Tooltip.module.css";
 
-function Tooltip({children , hint}) {
+function Tooltip({children , hint , className}) {
   return (
-    <div class={styles.tooltip}>
+    <div className={styles.tooltip+" "+className}>
       {children}
-      {hint&&<span class={styles.tooltiptext}>{hint}</span>}
+      {hint&&<span className={styles.tooltiptext}>{hint}</span>}
     </div>
   )
 };

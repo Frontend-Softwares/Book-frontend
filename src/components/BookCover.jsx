@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 
 
-function Book() {
+function BookCover({onClick}) {
     const bookRef = useRef();
     const controlRef = useRef();
 
@@ -25,7 +25,7 @@ function Book() {
                 <img className="cursor-pointer h-7" src="/images/Heart.svg" alt="" />
             </div>
 
-            <button className="px-4 py-1 text-md xs:text-xl font-extrabold bg-white rounded-lg text-[#193490]">Read</button>
+            <button onClick={onClick} className="px-4 py-1 text-md xs:text-xl font-extrabold bg-white rounded-lg text-[#193490]">Read</button>
 
             <div className="flex flex-col items-end w-full">
                 <img className="cursor-pointer h-7" src="/images/Right 3.svg" alt="" />
@@ -37,4 +37,4 @@ function Book() {
   )
 }
 
-export default Book
+export default BookCover;
