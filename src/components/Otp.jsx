@@ -103,4 +103,4 @@ function Otp({callback , execute=false , autoFocus=true}) {
   )
 }
 
-export default Otp
+export default Otp;

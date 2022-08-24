@@ -19,7 +19,7 @@ function BookCover({onClick}) {
 
   return (
     <div ref={bookRef} className="relative">
-        <div ref={controlRef} className="invisible controls h-full w-full p-5 flex flex-col items-center justify-between absolute bg-[#000000a0]">
+        <div ref={controlRef} className="invisible controls h-full w-full p-5 flex flex-col items-center justify-between absolute bg-[#000000a0] z-0">
             <div className="flex justify-between w-full">
                 <img className="cursor-pointer h-6" src="/images/del.svg" alt="" />
                 <img className="cursor-pointer h-7" src="/images/Heart.svg" alt="" />

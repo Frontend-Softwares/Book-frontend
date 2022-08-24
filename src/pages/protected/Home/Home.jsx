@@ -2,8 +2,10 @@ import { useState } from "react";
 import Book from "../../../components/BookCover";
 import BookHolder from "../../../components/BookHolder";
 import Interactive from "../../../components/Modals/assets/Interactive";
+import Prompt from "../../../components/Modals/assets/Prompt";
 import FullScreenModal from "../../../components/Modals/FullScreenModal";
 import Sidebaar from "../../../components/Sidebaar";
+import {MdNewLabel} from "react-icons/md";
 
 
 function Home() {
@@ -25,10 +27,18 @@ function Home() {
 
         <Sidebaar/> 
 
+
+
         <FullScreenModal state={addModalState} setState={setAddModalState}>
-          <Interactive bg={"#1D3F96"} color="white" size="medium" title="Add your book" close={setAddModalState}>
+          {/* <Interactive bg={"#1D3F96"} color="white" size="medium" title="Add your book" close={setAddModalState}>
             
-          </Interactive>
+          </Interactive> */}
+
+          <Prompt icon={"book-icon.svg"} direction={"rtl"} onNegativeClick={()=>{
+            console.log("I am negative")
+          }} onPositiveClick={()=>{
+            console.log("I am positive");
+          }} close={setAddModalState}/>
         </FullScreenModal>
 
         <FullScreenModal state={searchModalState} setState={setSearchModalState}>
