@@ -9,8 +9,7 @@ This application created by using latest advance technologies and libraries <br>
 | Tech & Library | Description |
 | ------ | ------ |
 | React | javascript frontend library |
-| Node Js | javascript runtime for backend
- |
+| Node Js | javascript runtime for backend|
 | Express | a node js library for backend |
 | MongoDb | database |
 | Tailwind | a css library for designing |
